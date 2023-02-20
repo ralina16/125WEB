@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+
+body::-webkit-scrollbar {
+    display: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px
+}
+
+ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 45px;
+    background-image: linear-gradient(315deg, #a39fa2 25%, #a39fa2 50%, #e1dfe1 75%, #e1dfe1 100%);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+   text-align: center;
+   padding-top: 30px;
+}
+
+.girls {
+    color: black;
+}
+
+.girls:hover {
+    transform: scale(1.1);
+}
+
+.dasha, .ralina, .ksenya, .polina {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.photo_girls {
+    text-align: center;
+    margin-top: 30px;
+}
+
+table { 
+    width: 90%; 
+    display: inline; 
+} 
+td, th { 
+    background: rgba(151, 150, 150, 0.144); 
+    padding: 1px 
+    
+}
